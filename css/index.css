@@ -151,7 +151,19 @@ http://www.templatemo.com/tm-515-eatery
     padding: 10px 25px;
     transition: 0.5s 0.2s;
   }
-
+  .section-btnmenu {
+    background: #ce3232;
+    border-radius: 0;
+    border: 0;
+    color: #f9f9f9;
+    font-size: inherit;
+    font-weight: normal;
+    padding: 2% 10%;
+    transition: 0.5s 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .section-btn-pedido {
     background: #ce3232;
     border-radius: 0;
@@ -592,7 +604,7 @@ http://www.templatemo.com/tm-515-eatery
     bottom: 0px;
     text-align: left;
     padding: 25px 30px;
-    transition: 0.5s 0.2s;
+    background: rgba(0,0,0,0.8);
   }
 
   .menu-info .menu-item {
@@ -607,17 +619,12 @@ http://www.templatemo.com/tm-515-eatery
     font-size: 20px;
     font-weight: bold;
     line-height: normal;
-    display: block;
     margin-top: 10px;
   }
 
   .menu-thumb .menu-info h3,
   .menu-thumb .menu-info p,
   .menu-thumb .menu-info span {
-    transform: translateY(100%);
-    opacity: 0;
-    display: block;
-    transition: 0.5s 0.2s;
     color: #ffffff;
     z-index: 2;
     position: relative;

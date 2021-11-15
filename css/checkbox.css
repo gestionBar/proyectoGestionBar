@@ -129,7 +129,7 @@ color: inherit;
 }
 
 p + p {
-margin-top: 3em;
+margin-top: none;
 }
 
 form p {
@@ -139,19 +139,4 @@ color: #34495E;
 
 a[href^="https://twitter.com"] {
 color: #1da1f2;
-}
-
-.btn.btn {
-display: inline-block;
-padding: 8px 24px;
-text-decoration: none;
-border-radius: 40px;
-background: #34495E;
-color: #F2F2F2;
-transition: all .4s;
-}
-
-.btn.btn:hover,
-.btn.btn:focus {
-background: #000;
 }
