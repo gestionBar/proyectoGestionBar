@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="../css/loginregistro.css">
     </head>
     <body>
-        <form class="form-register" action="../gestionAdministrador/gestionAdmin/guardarRegistroEmpleado.jsp" method="post">
+        <form class="form-register" action="guardarRegistro.jsp" method="post">
             <h2><b>FORMULARIO DE REGISTRO</b></h2>
 
             <input class="controls" type="text" for="nombre" name="nombre" id="nombre"  required placeholder=" Ingrese su Nombre" >
